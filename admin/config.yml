@@ -1,4 +1,7 @@
-
+backend:
+  name: github
+  repo: kha72kl-cloud/Engineering-College-Students-Union-Zawiya
+  branch: main
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
