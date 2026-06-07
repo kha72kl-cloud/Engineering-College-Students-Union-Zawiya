@@ -178,7 +178,7 @@
             opacity: 0.8;
         }
 
-        /* Countdown - تحديث لدوري كرة القدم بتوقيت ليبيا */
+        /* Countdown - معدل لدوري كرة القدم بتوقيت ليبيا */
         .countdown-section {
             background: var(--primary-blue);
             color: white;
@@ -412,7 +412,7 @@
         </div>
     </section>
 
-    <!-- العد التنازلي لدوري كرة القدم - التوقيت: 10 يوليو 2026 الساعة 8:00 مساءً بتوقيت ليبيا (UTC+2) -->
+    <!-- العد التنازلي لدوري كرة القدم - التاريخ: 10 يونيو 2026 الساعة 8:00 مساءً بتوقيت ليبيا -->
     <div class="countdown-section">
         <div class="container">
             <h3 class="countdown-title"><i class="fas fa-futbol"></i> دوري كرة القدم – ينطلق خلال</h3>
@@ -531,9 +531,9 @@
         const navLinks = document.getElementById('nav-links');
         mobileBtn.addEventListener('click', () => navLinks.classList.toggle('active'));
 
-        // العد التنازلي لدوري كرة القدم - بتوقيت ليبيا (UTC+2)
-        // التاريخ: 10 يوليو 2026 الساعة 20:00 بتوقيت ليبيا = 18:00 UTC
-        const targetDateUTC = new Date(Date.UTC(2026, 6, 10, 18, 0, 0)); // July 10, 2026, 18:00 UTC
+        // العد التنازلي لدوري كرة القدم - 10 يونيو 2026، الساعة 8:00 مساءً بتوقيت ليبيا (UTC+2)
+        // ليبيا UTC+2 يعني 20:00 ليبيا = 18:00 UTC
+        const targetDateUTC = new Date(Date.UTC(2026, 5, 10, 18, 0, 0)); // شهر 5 = يونيو
 
         function updateCountdown() {
             const nowUTC = new Date().getTime();
